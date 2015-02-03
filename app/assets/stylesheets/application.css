@@ -12,6 +12,6 @@
  *
  *= require_self
  *= require all
- *= require bootstrap.min
+ *= require bootstrap
  *= require dashboard.css
  */

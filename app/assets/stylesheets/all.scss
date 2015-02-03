@@ -89,6 +89,9 @@ p.browsehappy a {
 #header {
   width: 100%;
   padding: 54px 0 0;
+  a,div {
+    color: white;
+  }
 }
 #header:after {
   clear: both;
@@ -274,4 +277,14 @@ body.inner #footer .holder{
   top: 50%;
   left: 50%;
   margin: 0 auto;
+}
+
+.page {
+  a, p, h2, h3, label {
+    color: white;
+  }
+  .help-block {
+    color: white;
+  }
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
